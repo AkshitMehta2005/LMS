@@ -16,7 +16,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"https://lms-1-sx7k.onrender.com/",
+    origin:"https://lms-1-sx7k.onrender.com",
     // origin:"http://localhost:5173",
     credentials:true
 }))
